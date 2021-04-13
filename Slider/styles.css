@@ -10,7 +10,7 @@ body {
 
 .slider {
   position: relative;
-  background-color: rgb(228, 224, 224);
+  background-color: rgb(231, 227, 227);
   border-radius: 15px;
   width: 430px;
   height: 70px;
@@ -35,7 +35,7 @@ body {
   height: 48px;
   margin: 1px;
   border: 1px solid rgb(70, 70, 66);
-  background-color: rgb(160, 191, 206);
+  background-color: rgb(150, 192, 212);
   font-size: 16px;
   text-align: center;
   user-select: none;
