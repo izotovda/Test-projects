@@ -51,7 +51,7 @@ class Slider {
       selectNextElem(this.galleryElems, currentIndex);
       currentIndex += 1;
 
-      if (this.galleryWrapper.clientWidth < this.galleryElems[currentIndex].offsetLeft + this.galleryElems[currentIndex].offsetWidth) {
+      if (this.galleryElems[currentIndex].getBoundingClientRect().right >= this.galleryWrapper.getBoundingClientRect().right) {
 
         transformElem(this.galleryContainer, this.animationDuration, this.shift -= itemWidth);
 

@@ -4,12 +4,11 @@
   margin: 0;
 }
 
-body {
-  padding: 10px;
-}
-
 .slider {
   position: relative;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: rgb(231, 227, 227);
   border-radius: 15px;
   width: 430px;
