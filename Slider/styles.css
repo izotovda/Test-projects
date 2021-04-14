@@ -13,7 +13,7 @@
   border-radius: 15px;
   width: 430px;
   height: 70px;
-  /* touch-action: manipulation; */
+  touch-action: manipulation;
 }
 
 .slider__gallery-wrapper {
